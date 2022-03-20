@@ -17,7 +17,7 @@
 
 #greeting {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 88%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -30,11 +30,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 2;
     text-align: center;
     font-size: 15px;
-    color: whitesmoke;
-    opacity: 60%;
 }
 #todo-form {
     position: absolute;
@@ -64,7 +61,7 @@
 
 #todo-list {
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -75,4 +72,16 @@
 }
 #weather {
     font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 5%
 }
+
+.container {
+	display: flex;
+	/* display: inline-flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

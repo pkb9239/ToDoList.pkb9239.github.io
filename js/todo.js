@@ -30,6 +30,7 @@ function paintToDo(newTodo) {
 }
 
 function handleToDoSubmit(event) {
+    const quote = document.querySelector("#quote");
     event.preventDefault();
     const newTodo = toDoInput.value;
     toDoInput.value = "";
@@ -39,6 +40,7 @@ function handleToDoSubmit(event) {
     }
     toDos.push(newTodoObj);
     paintToDo(newTodoObj);
+    quote.style.display = "none";
     saveTodos();
 }
 
